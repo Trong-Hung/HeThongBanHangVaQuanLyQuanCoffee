@@ -89,7 +89,7 @@ lib/
 **Trọng Hùng**
 
 - GitHub: [@trong-hung](https://github.com/Trong-Hung)
-- Email: tronghung.dev@gmail.com
+- Email: votronghung.work@gmail.com
 
 ## 📞 Hỗ Trợ
 
