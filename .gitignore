@@ -1,3 +1,7 @@
+# ========================================
+# FLUTTER PROJECT .GITIGNORE
+# ========================================
+
 # Miscellaneous
 *.class
 *.log
@@ -12,15 +16,24 @@
 .swiftpm/
 migrate_working_dir/
 
-# IntelliJ related
+# IntelliJ related (IDE files - không cần thiết)
 *.iml
 *.ipr
 *.iws
 .idea/
+.project
+.metadata
+.classpath
+.settings/
 
 # VS Code related
 .vscode/
 *.code-workspace
+
+# Android Studio files
+local.properties
+gradle.properties
+key.properties
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -220,3 +233,63 @@ crash_reports/
 # Configuration files với thông tin cá nhân
 personal_config.dart
 my_config.json
+
+# ========================================
+# BỔ SUNG: CÁC FILE KHÔNG CẦN THIẾT
+# ========================================
+
+# Flutter logs (các file log Flutter)
+flutter_*.log
+*.log
+
+# Android build files
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/.gradle/
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# iOS build files  
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/.last_build_id
+
+# Build artifacts (file build không cần thiết)
+build/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# IDE files (file IDE không cần thiết)
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+.project
+.metadata
+.classpath
+.settings/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Personal development files (file phát triển cá nhân)
+NOTES.md
+TODO_PERSONAL.md
+dev_notes.txt
+personal_*.dart
